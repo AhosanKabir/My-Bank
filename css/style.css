@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:sans-serif;
+}
+
+.header{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-weight: 700;
+}
+
+.contact form {
+    padding: 40px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.6);
+    background-color: #53fdc3;
+    border-radius: 10px;
+}
+
+.contact form h2{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.contact form input{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    outline: none;
+    color: #777;
+}
+
+.contact form button{
+    outline: none;
+    border: 1px solid green;
+    background-color: green;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+/* money area css start  */
+
+#money-area{
+    padding-top: 100px;
+    display: none;
+}
+
+#withdrawBtn , #depositBtn {
+    outline: none;
+    border: 1px solid green;
+    background-color: green;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.deposit , .withdraw , .balance{
+    padding: 20px 20px;
+    max-width: 300px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+
+#money-area h2{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.deposit {
+    background-color: blue;
+}
+
+.withdraw{
+    background-color: orange;
+}
+
+.balance{
+    background-color: tomato;
+}
+
+.head{
+    font-size: 34px;
+    margin-bottom: 5px;
+}
+
+#deposit,#withdraw,#balance{
+    font-size: 25px;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+/* #deposit span,#withdraw span,#balance span{
+    margin-right: 10px;
+} */
+
+.deposit span, .withdraw span, .balance span{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+
+#money-area form{
+    padding: 40px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.pb-100{
+    padding-bottom: 100px;
+}
+
+
+#previousBtn{
+    display: inline-block;
+    margin-top: 100px;
+    outline: none;
+    border: 1px solid green;
+    background-color: green;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.previous {
+    margin-top: 35px;
+}
